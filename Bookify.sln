@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{18E2E70F-AD0C-4E60-B3DD-03406E48388D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{CA2F143C-AB02-4239-B513-93E8FC05B568}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookify.Domain", "Bookify.Domain\Bookify.Domain.csproj", "{421C6D0F-38FB-4552-A681-888265865663}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookify.Application", "Bookify.Application\Bookify.Application.csproj", "{1923D6B2-CAA5-4C39-81C1-42B5B1FB83FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookify.Inferastructure", "Bookify.Inferastructure\Bookify.Inferastructure.csproj", "{5F9B2D57-3622-4097-A31B-FE6E3B87D457}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookify.Api", "Bookify.Presentation\Bookify.Api.csproj", "{E600621B-105D-42CD-8226-F0FBC3068714}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{2509BCDE-ED80-4626-A4B4-D74056008735}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{421C6D0F-38FB-4552-A681-888265865663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{421C6D0F-38FB-4552-A681-888265865663}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{421C6D0F-38FB-4552-A681-888265865663}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{421C6D0F-38FB-4552-A681-888265865663}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1923D6B2-CAA5-4C39-81C1-42B5B1FB83FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1923D6B2-CAA5-4C39-81C1-42B5B1FB83FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1923D6B2-CAA5-4C39-81C1-42B5B1FB83FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1923D6B2-CAA5-4C39-81C1-42B5B1FB83FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F9B2D57-3622-4097-A31B-FE6E3B87D457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F9B2D57-3622-4097-A31B-FE6E3B87D457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F9B2D57-3622-4097-A31B-FE6E3B87D457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F9B2D57-3622-4097-A31B-FE6E3B87D457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E600621B-105D-42CD-8226-F0FBC3068714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E600621B-105D-42CD-8226-F0FBC3068714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E600621B-105D-42CD-8226-F0FBC3068714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E600621B-105D-42CD-8226-F0FBC3068714}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2509BCDE-ED80-4626-A4B4-D74056008735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2509BCDE-ED80-4626-A4B4-D74056008735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2509BCDE-ED80-4626-A4B4-D74056008735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2509BCDE-ED80-4626-A4B4-D74056008735}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{421C6D0F-38FB-4552-A681-888265865663} = {18E2E70F-AD0C-4E60-B3DD-03406E48388D}
+		{1923D6B2-CAA5-4C39-81C1-42B5B1FB83FE} = {18E2E70F-AD0C-4E60-B3DD-03406E48388D}
+		{5F9B2D57-3622-4097-A31B-FE6E3B87D457} = {18E2E70F-AD0C-4E60-B3DD-03406E48388D}
+		{E600621B-105D-42CD-8226-F0FBC3068714} = {18E2E70F-AD0C-4E60-B3DD-03406E48388D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3CE57C8-7D63-45EF-9288-59E01282D143}
+	EndGlobalSection
+EndGlobal
